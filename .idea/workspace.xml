@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7290ebb3-80a4-49b5-867d-9ddbc5c31fcf" name="Changes" comment="Premier test dans le navigateur chrome">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/modules/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/modules/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/page_objects/GoogleSearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserFactory.java" afterDir="false" />
+    <list default="true" id="7290ebb3-80a4-49b5-867d-9ddbc5c31fcf" name="Changes" comment="Mise en place de l'architecture">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/GoogleSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ressources/features/GoogleSearch.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/GoogleSearchStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definition/GoogleSearchStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/ressources/drivers/chromedriver.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/modules/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modules/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page_objects/GoogleSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_objects/GoogleSearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/step_definition/GoogleSearchStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definition/GoogleSearchStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676641123411</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mise en place de l'architecture">
+      <created>1676648095759</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676648095759</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +183,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Premier test dans le navigateur chrome" />
-    <option name="LAST_COMMIT_MESSAGE" value="Premier test dans le navigateur chrome" />
+    <MESSAGE value="Mise en place de l'architecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place de l'architecture" />
   </component>
 </project>

@@ -6,6 +6,7 @@ import io.cucumber.java.en.When;
 import org.openqa.selenium.By;
 import static modules.Hooks.driver;
 import static org.junit.Assert.assertTrue;
+import static page_objects.GoogleSearchPage.searchFor;
 
 public class GoogleSearchStepDefinition {
     @Given("I open google search page")
@@ -17,12 +18,7 @@ public class GoogleSearchStepDefinition {
 
     @When("I lookup the word {string}")
     public void iLookupTheWord(String arg0) throws InterruptedException {
-        //driver.findElement(By.name("q"))
-        driver.findElement(By.name("q")).clear();
-        // Accepter les cookies
-        driver.findElement(By.id("W0wltc")).click();
-        driver.findElement(By.name("q")).sendKeys(arg0);
-        driver.findElement(By.name("btnK")).submit();
+        searchFor(arg0);
     }
     @Then("search results display the word {string}")
     public void searchResultsDisplayTheWord(String arg0) {
