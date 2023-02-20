@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7290ebb3-80a4-49b5-867d-9ddbc5c31fcf" name="Changes" comment="Mise en place de l'architecture">
+    <list default="true" id="7290ebb3-80a4-49b5-867d-9ddbc5c31fcf" name="Changes" comment="Mise en place du pattern POM (Page Object Model)">
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/PropertiesFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/ressources/environnement/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/modules/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modules/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page_objects/GoogleSearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page_objects/GoogleSearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/step_definition/GoogleSearchStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/step_definition/GoogleSearchStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/BrowserFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/BrowserFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676648095759</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Mise en place du pattern POM (Page Object Model)">
+      <created>1676900553633</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676900553633</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,6 +192,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Premier test dans le navigateur chrome" />
     <MESSAGE value="Mise en place de l'architecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mise en place de l'architecture" />
+    <MESSAGE value="Mise en place du pattern POM (Page Object Model)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place du pattern POM (Page Object Model)" />
   </component>
 </project>
